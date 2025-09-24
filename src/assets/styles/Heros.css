@@ -1,0 +1,55 @@
+.hero {
+  height: 50vh;           /* Sección completa */
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Diferentes fondos para distinguirlos */
+.hero1 {
+  background-color: #ffe5e5;
+}
+
+.hero2 {
+  background-color: #e5f0ff;
+}
+
+.hero3 {
+  background-color: #e5ffe5;
+}
+
+/* Contenido centrado */
+.hero-content.center {
+  margin: auto;             /* Esto centra vertical y horizontal */
+  text-align: center;
+}
+
+/* Contenido abajo a la izquierda */
+.hero-content.bottom-left {
+  margin-top: auto;         /* Empuja el contenido hacia abajo */
+  text-align: left;
+}
+
+/* Contenido abajo a la derecha */
+.hero-content.bottom-right {
+  margin-top: auto;
+  margin-left: auto;
+  text-align: right;
+}
+
+/* Botón simple */
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #555;
+}

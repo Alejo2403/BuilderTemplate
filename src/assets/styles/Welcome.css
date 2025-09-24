@@ -1,0 +1,36 @@
+.container-welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.container-welcome .p-welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.container-welcome .t-welcome {
+    font-size: 64px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.container-welcome .b-welcome {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.container-welcome .button-welcome {
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 100px;
+    color: black;
+    font-weight: 800;
+    border-radius: 18px;
+    border: 2px solid gray;
+}

@@ -1,0 +1,153 @@
+{
+  "client_name": "Futurlex",
+  "navbar": {
+    "logo": {
+      "alt_text": "Futurlex Logo",
+      "link_url": "https://example.com",
+      "image_url": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/bf43d8fbe81e49578567292b6a79359e.png"
+    },
+    "options": [
+      {
+        "url": "/inicio",
+        "label": "Inicio"
+      },
+      {
+        "url": "/servicios",
+        "label": "Servicios"
+      },
+      {
+        "url": "/contacto",
+        "label": "Contacto"
+      }
+    ],
+    "cta_button": {
+      "url": "https://wa.me/573015144627",
+      "label": "Comenzar ahora"
+    },
+    "sec_cta_button": {
+      "url": "/know-more",
+      "label": "Saber más"
+    }
+  },
+  "hero_section": {
+    "title": "¡Protege tus ideas con Futurlex!",
+    "subtitle": "Expertos en Derecho Digital, Ciberseguridad y Propiedad Intelectual en Colombia.",
+    "cta_button": {
+      "url": "https://wa.me/573015144627",
+      "label": "Empieza a proteger hoy"
+    },
+    "social_proof": {
+      "text": "¡Más de 100 empresas confían en Futurlex para proteger sus activos intangibles!"
+    },
+    "background_image": "https://storage.googleapis.com/lomi-ai-images-bucket/user/7/images/e5e16cc2cd304a85ba723409e24d978c.jpeg"
+  },
+  "value_proposition": {
+    "title": "Nuestros Servicios",
+    "content": [
+      {
+        "name": "Registro de Marca",
+        "image_url": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/049e333a4e7b481a8f1581e7e97d20f7.jpg",
+        "description": "Servicio de registro de marca ante la superintendencia de industria y comercio, tiene una duracion aproximada de 12 meses y se deben pagar dos conceptos: Honorarios profesionales y la tasa oficial ante la SIC."
+      },
+      {
+        "name": "Registro de Patentes",
+        "image_url": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/166321dd64ed466b846e0845962a4525.jpg",
+        "description": "Ofrecemos asesoría integral en registro de patentes, incluyendo investigaciones de estado de la técnica. Contamos con un equipo de ingenieros y abogados especializados en la redacción de patentes y en todo el trámite de registro, garantizando seguridad jurídica e innovación protegida."
+      },
+      {
+        "name": "Tramite ante el INVIMA",
+        "image_url": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/75b0589a18e04efeaf97b7feef97e6b1.jpg",
+        "description": "Prestamos el servicio para registro sanitario de productos antes el instituto de vigilacia de medicamento y alimentos INVIMA en Colombia."
+      }
+    ]
+  },
+  "testimony": {
+    "title": "Esto dicen nuestros clientes",
+    "testimonials": [
+      {
+        "client_name": "Registro de marca exitoso Igor",
+        "testimonial": "",
+        "client_image": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/3f0c255d82d4422fbb511fa19df28cef.jpg",
+        "client_company": "Registro de marca exitoso Igor"
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Cuánto tiempo toma el registro de marca?",
+        "answer": "El registro de marca tarda aproximadamente 12 meses en completarse."
+      },
+      {
+        "question": "¿Qué incluye el servicio de registro de patentes?",
+        "answer": "Nuestro servicio incluye búsquedas de antecedentes, investigaciones de estado de la técnica y asesoramiento en redacción de patentes."
+      },
+      {
+        "question": "¿Cómo puedo registrar un producto ante el INVIMA?",
+        "answer": "Nosotros gestionamos el registro sanitario de productos ante el INVIMA en Colombia."
+      },
+      {
+        "question": "¿Cuál es el proceso para solicitar una consultoría legal?",
+        "answer": "Puedes contactarnos a través de nuestro formulario de contacto o llamándonos directamente."
+      }
+    ],
+    "background_image": "path/to/background.jpg"
+  },
+  "footer": {
+    "logo": {
+      "alt_text": "Futurlex Logo",
+      "link_url": "https://example.com",
+      "image_url": "https://storage.googleapis.com/lomi-ai-images-bucket/user/user_12345/images/bf43d8fbe81e49578567292b6a79359e.png"
+    },
+    "contact": {
+      "subtitle": "Get in touch with us",
+      "contact_info": [
+        {
+          "type": "Email",
+          "value": "info@futurlex.co"
+        },
+        {
+          "type": "Phone",
+          "value": "+57 301 514 4627"
+        }
+      ]
+    },
+    "develop_by": "Powered by LomiAI",
+    "engaging_subtitles": [
+      "Conecta con Futurlex",
+      "Síguenos en redes sociales",
+      "Mantente actualizado"
+    ],
+    "social_media_section": {
+      "active": [
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ],
+      "social_links": [
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/futurlex_co"
+        },
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/company/2943308"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@futurlex"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "font_family": "IBM Plex Sans",
+    "color_primary": "#009688",
+    "color_secondary": "#FB8C00",
+    "color_tertiary": "#f8f9fa",
+    "color_reasoning": "Colores proporcionados por el usuario"
+  },
+  "user_id": 7,
+  "repo_url": "https://github.com/Staion-Startup/lomi-template-3"
+}

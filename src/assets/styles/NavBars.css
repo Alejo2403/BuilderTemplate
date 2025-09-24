@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  align-items: center; /* 👈 fuerza la alineación vertical */
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 50px; /* 👈 fija un alto consistente */
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #3730a3;
+}
+
+/* 🔹 Variante 1 → Logo izquierda, Links centro, Botón derecha */
+.navbar-1 {
+  justify-content: space-between;
+}
+
+.navbar-1 .links {
+  flex: 1;
+  justify-content: center;
+}
+
+/* 🔹 Variante 2 → Links izquierda, Logo centro, Botón derecha */
+.navbar-2 {
+  justify-content: space-between;
+}
+
+.navbar-2 .logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* 🔹 Variante 3 → Links izquierda, Botón centro, Logo derecha */
+.navbar-3 {
+  justify-content: space-between;
+}
+
+.navbar-3 .btn {
+  margin: 0 auto; /* centra el botón */
+}

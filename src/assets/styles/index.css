@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;        /* Para que el fondo cubra toda la pantalla */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 239, 1) 0%,
+    rgba(146, 147, 215, 1) 100%
+  );
+  background-attachment: fixed; /* 🔥 el fondo no se mueve al hacer scroll */
+  background-repeat: no-repeat;
+  background-size: cover;       /* Que cubra siempre todo */
+}
